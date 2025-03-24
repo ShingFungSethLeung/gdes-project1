@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+  .about{
+    display: inline-block; 
+    color: #FFF;
+    background-color: #8C624B;
+    box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.14);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Kalnia;
+    font-size: 50px;
+    text-decoration: none;
+    width: 238px;
+    height: 60px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  body{
+    background-color: #5A5353;
+    color: aliceblue;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+
+  .form{
+    background-color: #FFF;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    align-items: center;
+    width: 170px;
+    margin: 10px auto;
+    font-family: Kalnia;
+    padding: 3px;
+    border: 16px solid #8C624B;
+  }
+
+  .flex{
+    display: flex;
+    align-items:start;
+    padding: 10px;
+  }
+
+  .flex-banner{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .flex-tab{
+    background-color: #685C4D;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: flex-start;
+    height: 120px;
+  width: 1300px;
+    
+  }
+
+  .about-form{
+background-color: #414141;
+margin-top: 10px;
+padding: 10px;
+
+  }
+
+header img {
+width: 325px;
+}
+
+nav img{
+  width: 300px;
+
+}
+
+.form-button{
+  width: 300px;
+  height: 50px;
+  display: flex; 
+  color: #FFF;
+  background-color: #8C624B;
+  box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.14);
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Kalnia;
+  font-size: 40px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.continue{
+  width: 300px;
+  height: 50px;
+  display: inline-block; 
+  color: #FFF;
+  background-color: #8C624B;
+  box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.14);
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Kalnia;
+  font-size: 40px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 500px;
+}
+
+.button {
+  display: flex; 
+  color: #FFF;
+  background-color: #8C624B;
+  box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.14);
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Kalnia;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 8px 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  }
+
+.title{
+  background-color: #414141;
+  box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.14) inset;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 712px;
+  height: 50px;
+  font-family: Kalnia;
+  font-size: 42px;
+  text-decoration: none;
+  padding: 8px 16px;
+  margin-left: -40px;
+  padding-left: 60px;
+  margin-top: 20px;
+}
+
+.about-title{
+  background-color: #414141;
+  box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.14) inset;
+  width: 712px;
+  height: 60px;
+  font-family: Kalnia;
+  font-size: 50px;
+  text-decoration: none;
+  padding: 8px 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+a{
+padding-right: 10px;
+text-decoration: none;
+color: #FFF;
+margin-left: auto;
+margin-right: auto;
+}
+
+b{
+  font-size: larger;
+}
+
+p{
+  padding: 10px;
+}
+
+h1{
+padding: 5px;
+text-align: center;}
+
+.long{
+  width: 1300px;
+}
+
+.about-container{
+  background-image: url(imgfolder/about.jpg);
+  background-size: cover;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 1250px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-text{
+  
+  color: #FFF;
+  font-family: K2D;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  text-align: left;
+  padding: 10px;
+  width: 300px;
+  
+}
+
+.about-text{
+  background-color: rgba(119, 103, 73, 0.70);
+  font-family: K2D;
+  font-size: 26px;
+  text-align: center;
+  width: 900px;
+  height: 300px;
+  padding: 30px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-text{
+  
+  font-family: K2D;
+  font-size: 26px;
+  text-align: left;
+  width: 674px;
+  height: 400px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.left-text{
+  font-family: K2D;
+  font-size: 26px;
+  text-align: left;
+  width: 674px;
+  height: 400px;
+  padding-left: 30px;
+
+}
+
+
+
+
+ 
+
